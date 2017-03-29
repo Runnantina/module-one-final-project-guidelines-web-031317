@@ -23,3 +23,15 @@ For your final project, we'll be building a Command Line database application.
 5. Make sure your project checks off each of the above requirements.
 6. Prepare a video demo (narration helps!) describing how a user would interact with your working gem.
 7. *OPTIONAL, BUT RECOMMENDED*: Write a blog post about the project and process.
+
+
+### Domaine model
+
+Answers
+id | answer
+
+Questions belong_to :answers
+id | question
+
+Question_answers
+id | question_id | answer_id
